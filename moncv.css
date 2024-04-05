@@ -1,0 +1,240 @@
+.container {
+  
+    height: 710px;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.partiegauche {
+    border: none;
+    flex: 0.5;
+    background-color: #BF382A;
+    padding-left: 15px;
+    color: white;
+    transition: flex 0.5s;
+}
+
+.partiegauche:hover {
+    flex: 1;
+}
+
+.cordonnees-div {
+    margin-bottom: 60px;
+    transition: margin-bottom 0.2s;
+}
+
+.cordonnees-div:hover {
+    margin-bottom: 120px;
+}
+
+p {
+    font-family: poppins;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.p1 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.p2 {
+    margin-top: 12px;
+}
+
+.p3 {
+    font-weight: 400;
+    font-size: 9px;
+}
+
+.p4 {
+    margin-top: 10px;
+}
+
+.p1:hover,
+.p2:hover,
+.p3:hover,
+.p4:hover {
+    color: rgb(214, 214, 214)
+}
+
+.p1:active {
+    color: rgb(161, 161, 161)
+}
+
+.cordonees-info {
+    margin-left: 10px;
+}
+
+.info-div {
+    transition: margin-bottom 0.2s;
+}
+
+.info-div:hover {
+    margin-bottom: 20px;
+}
+
+.barregauche {
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.539);
+    border-width: 1px;
+}
+
+.partiedroite {
+    flex: 2.8;
+}
+
+.nom {
+    font-size: 18px;
+    margin-left: 16px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+.bloc1,
+.bloc2,
+.bloc3,
+.bloc4 {
+    border-top: solid;
+    border-color: rgba(99, 93, 93, 0.434);
+    border-width: 1.5px;
+    width: 350px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    transition: margin-bottom 0.2s;
+}
+
+.bloc2 {
+    height: 140px;
+}
+
+.bloc3 {
+    height: 80px;
+}
+
+.bloc4 {
+    height: 100px;
+}
+
+.bloc1:hover,
+.bloc2:hover,
+.bloc3:hover,
+.bloc4:hover {
+    margin-bottom: 10px;
+}
+
+.p2-1 {
+    margin-bottom: 20px;
+}
+
+.p2-1,
+.p2-2 {
+    transition: color 0.2s;
+}
+
+.p2-1:hover,
+.p2-2:hover {
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.p2-3,
+.p2-4 {
+    font-size: 9px;
+    font-weight: 400;
+    transition: font-size 0.2s;
+}
+
+.p2-3:hover,
+.p2-4:hover {
+    font-size: 10px;
+}
+
+.p2-4 {
+    color: gray;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+.p2-5 {
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.p2-5:hover {
+    color: rgb(85, 85, 85);
+}
+
+
+.div-exprerience {
+    width: 100px;
+}
+
+.barreverticale {
+    border-left: solid;
+    width: 100px;
+    border-width: 1.5px;
+    border-color: #BF382A;
+    margin-top: 40px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    height: 12px;
+    width: 12px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #BF382A;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf493c;
+}
+
+button:active {
+    background-color: #bd2b1a;
+}
+
+.button1 {
+    margin-top: 37px;
+    margin-left: -106.5px;
+}
+
+.button2 {
+    margin-top: 82px;
+    margin-left: -12px;
+}
+
+.button3 {
+    margin-top: 142px;
+    margin-left: -12px;
+}
+
+.section {
+    transition: margin-bottom 0.2s;
+}
+
+.section:hover {
+    margin-bottom: 7px;
+}
+
+.nom-div {
+    transition: padding-left 0.3s;
+}
+
+.nom-div:hover {
+    padding-left: 223px
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
