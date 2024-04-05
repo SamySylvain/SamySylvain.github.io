@@ -1,5 +1,9 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container {
-  
     height: 710px;
     margin-left: 30px;
     margin-top: 20px;
@@ -8,7 +12,7 @@
 
 .partiegauche {
     border: none;
-    flex: 0.5;
+    flex: 1;
     background-color: #BF382A;
     padding-left: 15px;
     color: white;
@@ -16,7 +20,7 @@
 }
 
 .partiegauche:hover {
-    flex: 1;
+    flex: 1.5;
 }
 
 .cordonnees-div {
@@ -231,7 +235,7 @@ button:active {
 }
 
 .nom-div:hover {
-    padding-left: 223px
+    padding-left: 205px
 }
 
 a {
